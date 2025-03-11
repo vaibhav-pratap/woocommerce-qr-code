@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce QR Code Generator
  * Plugin URI: https://exiverlabs.co.in/
  * Description: Automatically generates and embeds QR codes for WooCommerce products and orders, with admin features.
- * Version: 1.2
+ * Version: 1.3
  * Author: Vaibhav Singh
  * Author URI: https://exiverlabs.co.in/
  * License: GPL2
@@ -16,6 +16,7 @@ define('WQR_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 require_once WQR_PLUGIN_DIR . 'includes/qr-generator.php';
 require_once WQR_PLUGIN_DIR . 'includes/admin-panel.php';
+include_once plugin_dir_path(__FILE__) . 'includes/product-edit-qr.php';
 
 // Add QR code to product description
 add_filter('the_content', 'wqr_add_product_qr_code');
