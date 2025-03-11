@@ -4,7 +4,7 @@
  * Plugin URI: https://exiverlabs.co.in/
  * Description: Automatically generates and embeds QR codes for WooCommerce products and orders, with admin features.
  * Version: 1.1
- * Author: Your Name
+ * Author: Vaibhav Singh
  * Author URI: https://exiverlabs.co.in/
  * License: GPL2
  */
